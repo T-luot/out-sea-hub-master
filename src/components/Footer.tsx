@@ -78,7 +78,7 @@ export function Footer() {
               {languages.map((lang) => (
                 <a
                   key={lang.code}
-                  href={`/${lang.code}`}
+                  href={lang.code === 'en' ? '/' : `/${lang.code}`}
                   className={`flex items-center space-x-2 transition-all duration-200 text-sm py-1 hover:font-semibold active:scale-95 ${
                     lang.code === 'en' 
                       ? 'text-primary font-medium' 

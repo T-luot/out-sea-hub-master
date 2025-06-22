@@ -40,6 +40,11 @@ export default {
   				DEFAULT: 'rgb(var(--destructive))',
   				foreground: 'rgb(var(--destructive-foreground))'
   			},
+  			yellow: {
+  				'300': '#59637f',
+  				'400': '#0079f2',
+  			},
+  			purple: 'rgb(161 79 248)',
   			border: 'rgb(var(--border))',
   			input: 'rgb(var(--input))',
   			ring: 'rgb(var(--ring))',
@@ -94,7 +99,10 @@ export default {
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out'
-  		}
+  		},
+  		fontSize: {
+  			'7xl': ['4.5rem', { lineHeight: '1.1' }],
+  		},
   	}
   },
   plugins: [require("tailwindcss-animate")],
