@@ -16,7 +16,8 @@ const plDictionary = {
   hero: {
     badge: "Profesjonalna Platforma Generowania Obrazów AI",
     title: "Twórz Oszałamiające Obrazy z",
-    subtitle: "Out Sea Hub AI",
+    name: "Out Sea Hub AI",
+    subtitle: "",
     description: "Przekształć swoje pomysły w profesjonalne obrazy dzięki naszej najnowocześniejszej technologii AI. Generuj obrazy z tekstu, edytuj istniejące obrazy i przetwarzaj wiele obrazów z mocą Out Sea Hub AI.",
     cta: {
       primary: "Zacznij Tworzyć",

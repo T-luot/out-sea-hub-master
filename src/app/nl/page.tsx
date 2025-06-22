@@ -16,7 +16,8 @@ const nlDictionary = {
   hero: {
     badge: "Professioneel AI Beeldgeneratie Platform",
     title: "Maak Verbluffende Beelden met",
-    subtitle: "Out Sea Hub AI",
+    name: "Out Sea Hub AI",
+    subtitle: "",
     description: "Transformeer je ideeën in professionele beelden met onze geavanceerde AI-technologie. Genereer beelden uit tekst, bewerk bestaande beelden en verwerk meerdere beelden met de kracht van Out Sea Hub AI.",
     cta: {
       primary: "Begin met Maken",

@@ -16,7 +16,8 @@ const ptDictionary = {
   hero: {
     badge: "Plataforma Profissional de Geração de Imagens IA",
     title: "Crie Imagens Deslumbrantes com",
-    subtitle: "Out Sea Hub AI",
+    name: "Out Sea Hub AI",
+    subtitle: "",
     description: "Transforme suas ideias em imagens profissionais com nossa tecnologia de IA de ponta. Gere imagens a partir de texto, edite imagens existentes e processe múltiplas imagens com o poder do Out Sea Hub AI.",
     cta: {
       primary: "Começar a Criar",

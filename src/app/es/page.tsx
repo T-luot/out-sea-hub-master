@@ -42,7 +42,8 @@ const esDictionary = {
   hero: {
     badge: "Plataforma Profesional de Generación de Imágenes IA",
     title: "Crea Imágenes Impresionantes con",
-    subtitle: "Out Sea Hub AI",
+    name: "Out Sea Hub AI",
+    subtitle: "",
     description: "Transforma tus ideas en imágenes profesionales con nuestra tecnología de IA de vanguardia. Genera imágenes desde texto, edita imágenes existentes y procesa múltiples imágenes con el poder de Out Sea Hub AI.",
     cta: {
       primary: "Comenzar a Crear",

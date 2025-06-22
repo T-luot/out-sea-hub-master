@@ -17,7 +17,8 @@ const koDictionary = {
   hero: {
     badge: "전문 AI 이미지 생성 플랫폼",
     title: "놀라운 이미지 만들기",
-    subtitle: "Out Sea Hub AI",
+    name: "Out Sea Hub AI",
+    subtitle: "",
     description: "최첨단 AI 기술로 아이디어를 전문적인 이미지로 변환하세요. 텍스트에서 이미지를 생성하고, 기존 이미지를 편집하며, Out Sea Hub AI의 힘으로 여러 이미지를 처리하세요.",
     cta: {
       primary: "만들기 시작",

@@ -42,7 +42,8 @@ const zhDictionary = {
   hero: {
     badge: "专业AI图像生成平台",
     title: "使用以下工具创建令人惊艳的图像",
-    subtitle: "Out Sea Hub AI",
+    name: "Out Sea Hub AI",
+    subtitle: "",
     description: "使用我们尖端的AI技术将您的想法转化为专业图像。从文本生成图像，编辑现有图像，并使用Out Sea Hub AI的强大功能处理多张图像。",
     cta: {
       primary: "开始创建",

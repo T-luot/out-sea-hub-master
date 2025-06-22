@@ -17,7 +17,8 @@ const jaDictionary = {
   hero: {
     badge: "プロフェッショナルAI画像生成プラットフォーム",
     title: "素晴らしい画像を作成",
-    subtitle: "Out Sea Hub AI",
+    name: "Out Sea Hub AI",
+    subtitle: "",
     description: "最先端のAI技術でアイデアをプロフェッショナルな画像に変換します。テキストから画像を生成し、既存の画像を編集し、Out Sea Hub AIの力で複数の画像を処理します。",
     cta: {
       primary: "作成を開始",

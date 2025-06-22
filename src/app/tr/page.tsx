@@ -16,7 +16,8 @@ const trDictionary = {
   hero: {
     badge: "Profesyonel AI Görüntü Üretim Platformu",
     title: "Çarpıcı Görüntüler Oluşturun",
-    subtitle: "Out Sea Hub AI",
+    name: "Out Sea Hub AI",
+    subtitle: "",
     description: "Fikirlerinizi son teknoloji AI teknolojimizle profesyonel görüntülere dönüştürün. Metinden görüntü üretin, mevcut görüntüleri düzenleyin ve Out Sea Hub AI'nin gücüyle birden fazla görüntüyü işleyin.",
     cta: {
       primary: "Oluşturmaya Başla",

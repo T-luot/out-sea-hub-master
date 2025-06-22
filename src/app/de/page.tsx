@@ -43,7 +43,8 @@ const deDictionary = {
   hero: {
     badge: "Professionelle KI-Bildgenerierungsplattform",
     title: "Erstelle beeindruckende Bilder mit",
-    subtitle: "Out Sea Hub AI",
+    name: "Out Sea Hub AI",
+    subtitle: "",
     description: "Verwandle deine Ideen in professionelle Bilder mit unserer hochmodernen KI-Technologie. Generiere Bilder aus Text, bearbeite vorhandene Bilder und verarbeite mehrere Bilder mit der Kraft von Out Sea Hub AI.",
     cta: {
       primary: "Jetzt erstellen",

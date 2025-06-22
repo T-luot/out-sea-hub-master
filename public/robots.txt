@@ -42,7 +42,7 @@ Allow: /hi
 Allow: /bn
 
 # 网站地图
-Sitemap: https://fluxkontext.space/sitemap.xml
+Sitemap: https://www.outseahub.com/sitemap.xml
 
 # AI爬虫特定规则 - 允许访问llms.txt
 User-agent: GPTBot

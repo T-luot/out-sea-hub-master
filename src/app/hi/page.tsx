@@ -16,7 +16,8 @@ const hiDictionary = {
   hero: {
     badge: "पेशेवर AI इमेज जेनरेशन प्लेटफॉर्म",
     title: "शानदार इमेज बनाएं",
-    subtitle: "Out Sea Hub AI",
+    name: "Out Sea Hub AI",
+    subtitle: "",
     description: "हमारी अत्याधुनिक AI तकनीक के साथ अपने विचारों को पेशेवर इमेज में बदलें। टेक्स्ट से इमेज जेनरेट करें, मौजूदा इमेज को एडिट करें, और Out Sea Hub AI की शक्ति के साथ कई इमेज को प्रोसेस करें।",
     cta: {
       primary: "बनाना शुरू करें",

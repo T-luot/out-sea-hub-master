@@ -16,7 +16,8 @@ const arDictionary = {
   hero: {
     badge: "منصة احترافية لتوليد الصور بالذكاء الاصطناعي",
     title: "إنشاء صور مذهلة مع",
-    subtitle: "Out Sea Hub AI",
+    name: "Out Sea Hub AI",
+    subtitle: "",
     description: "حول أفكارك إلى صور احترافية باستخدام تقنية الذكاء الاصطناعي المتطورة. أنشئ صورًا من النص، وحرر الصور الموجودة، ومعالج صور متعددة بقوة Out Sea Hub AI.",
     cta: {
       primary: "ابدأ الإنشاء",
