@@ -128,7 +128,8 @@ export const EN_DICTIONARY: HomeDictionary = {
   hero: {
     badge: "Professional AI Image Generation Platform",
     title: "Create Stunning Images with",
-    subtitle: "Out Sea Hub AI",
+    name: "Out Sea Hub AI",
+    subtitle: "",
     description: "Transform your ideas into professional images with our cutting-edge AI technology. Generate images from text, edit existing images, and process multiple images with the power of Out Sea Hub AI.",
     cta: {
       primary: "Start Creating",
