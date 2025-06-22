@@ -22,7 +22,9 @@
     "seo:check": "node scripts/check-seo.js",
     "seo:audit": "npm run seo:check && npm run lighthouse",
     "lighthouse": "npx lighthouse http://localhost:3000 --output=html --output-path=./lighthouse-report.html",
-    "test:api": "node scripts/test-api.js"
+    "test:api": "node scripts/test-api.js",
+    "pages:build": "next build && npx @cloudflare/next-on-pages",
+    "pages:deploy": "npm run pages:build && wrangler pages deploy .vercel/output/static"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.817.0",
@@ -56,6 +58,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
+    "@cloudflare/next-on-pages": "^1.13.12",
     "@eslint/eslintrc": "^3.3.1",
     "@types/node": "^20.17.50",
     "@types/react": "^18.3.22",
