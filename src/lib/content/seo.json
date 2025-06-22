@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "Out Sea Hub AI - Professional AI Image Generation & Editing Platform",
+    "description": "Advanced AI image generation platform powered by Out Sea Hub. Create stunning images from text, edit existing images, and process multiple images with cutting-edge AI technology.",
+    "keywords": [
+      "flux kontext ai",
+      "ai image generation",
+      "text to image ai",
+      "ai image editing",
+      "flux ai generator",
+      "professional ai images",
+      "multi-image processing",
+      "ai image creator"
+    ]
+  },
+  "openGraph": {
+    "title": "Out Sea Hub AI - Professional AI Image Generation Platform",
+    "description": "Create stunning images with advanced AI technology. Text-to-image, image editing, and multi-image processing capabilities."
+  },
+  "twitter": {
+    "title": "Out Sea Hub AI - Professional AI Image Generation Platform",
+    "description": "Create stunning images with advanced AI technology. Text-to-image, image editing, and multi-image processing capabilities."
+  },
+  "structuredData": {
+    "organization": {
+      "name": "Out Sea Hub",
+      "description": "Professional AI image generation platform powered by Out Sea Hub. Create stunning images from text descriptions with advanced AI technology.",
+      "contactType": "customer service",
+      "availableLanguage": ["English"],
+      "addressCountry": "US"
+    },
+    "software": {
+      "name": "Out Sea Hub AI Image Generator",
+      "description": "Professional AI image generation platform. Create stunning images from text descriptions with advanced Out Sea Hub AI technology.",
+      "applicationCategory": "ImageEditingApplication",
+      "operatingSystem": "Web Browser",
+      "freeDescription": "Free AI image generation with Out Sea Hub",
+      "features": [
+        "Text to image AI generation",
+        "Image editing with AI",
+        "Multiple image processing",
+        "Professional image output",
+        "Out Sea Hub Pro and Max models",
+        "AI-powered image creation"
+      ]
+    },
+    "service": {
+      "name": "Out Sea Hub AI Image Generation Service",
+      "description": "Professional AI image generation service with multiple pricing plans powered by Out Sea Hub technology",
+      "plans": {
+        "free": "Free AI image generation with basic features",
+        "plus": "Enhanced AI image generation with Out Sea Hub Pro",
+        "pro": "Premium AI image generation with Out Sea Hub Max",
+        "enterprise": "Enterprise-grade AI image generation with priority support"
+      }
+    }
+  }
+} 
