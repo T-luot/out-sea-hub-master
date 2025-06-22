@@ -26,7 +26,7 @@ export function SmartImagePreview({ url, alt, index, onRemove }: SmartImagePrevi
   }
 
   // 生成备用URL列表
-  const generateFallbackUrls = (originalUrl: string): string[] => {
+  const generateFallbackUrls = useCallback((originalUrl: string): string[] => {
     const urls = [originalUrl]
     const urlType = getUrlType(originalUrl)
     
@@ -62,7 +62,7 @@ export function SmartImagePreview({ url, alt, index, onRemove }: SmartImagePrevi
     }
     
     return [...new Set(urls)] // 去重
-  }
+  }, [])
 
   const handleImageError = useCallback(async () => {
     const urlType = getUrlType(currentUrl)
@@ -92,7 +92,7 @@ export function SmartImagePreview({ url, alt, index, onRemove }: SmartImagePrevi
     console.error(`❌ All fallback URLs failed for image ${index + 1}:`, url)
     setHasError(true)
     setIsLoading(false)
-  }, [url, currentUrl, retryCount, index])
+  }, [url, currentUrl, retryCount, index, generateFallbackUrls])
 
   const handleImageLoad = useCallback(() => {
     setIsLoading(false)
@@ -112,7 +112,7 @@ export function SmartImagePreview({ url, alt, index, onRemove }: SmartImagePrevi
     setIsLoading(true)
     setHasError(false)
     setRetryCount(0)
-  }, [url, index])
+  }, [url, index, currentUrl])
 
   // 🔧 添加调试信息
   useEffect(() => {
@@ -145,7 +145,7 @@ export function SmartImagePreview({ url, alt, index, onRemove }: SmartImagePrevi
       }
       img.src = currentUrl
     }
-  }, [currentUrl, index])
+  }, [currentUrl, index, handleImageError])
 
   // 🔧 检查blob URL是否仍然有效
   useEffect(() => {

@@ -225,7 +225,7 @@ export function FluxKontextGenerator() {
         session: !!session
       })
     }
-  }, [userType]) // ?? 仅依赖userType
+  }, [userType, userLimits.maxImages, availableModels.length, session]) // ?? 修复：添加缺失的依赖项
 
   // ?? 删除重复请求的useEffect
   // useEffect(() => {
@@ -257,7 +257,7 @@ export function FluxKontextGenerator() {
         uploadedFilesCount: uploadedFiles.length
       })
     }
-  }, [userType, userLimits.maxImages, imageCountOptions.length, aspectRatioOptions.length, availableModels.length, session?.user?.email, uploadedImages.length, uploadedFiles.length]) // ?? 仅依赖用户类型和图像变化
+  }, [userType, userLimits.maxImages, imageCountOptions.length, aspectRatioOptions.length, availableModels.length, session, uploadedImages.length, uploadedFiles.length]) // ?? 修复：添加 session 依赖并移除其子属性
 
   // 全量选择 - 使用generator模型
   const safetyOptions = [
@@ -1379,7 +1379,7 @@ export function FluxKontextGenerator() {
       }
       console.log('🏁 图像生成流程结束')
     }
-  }, [validateTurnstile, checkTurnstileRequired, turnstileToken, batchGenerate, userType, userLimits.maxImages, userLimits.requiresTurnstile, retryCount])
+  }, [validateTurnstile, checkTurnstileRequired, turnstileToken, batchGenerate, userType, userLimits.maxImages, retryCount, isTurnstileVerified])
 
   // 🔧 处理重试
   const handleRetry = useCallback(async () => {
@@ -1801,7 +1801,7 @@ export function FluxKontextGenerator() {
     if (recommendedModel !== selectedModel) {
       setSelectedModel(recommendedModel as any)
     }
-  }, [uploadedImages.length]) // 仅在图像变化时触发
+  }, [uploadedImages.length, getRecommendedModel, selectedModel])
 
   // 🔧 获取当前模型信息
   const getCurrentModelInfo = useCallback(() => {
