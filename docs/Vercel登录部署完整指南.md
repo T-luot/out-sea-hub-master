@@ -2,7 +2,7 @@
 
 ## 🔐 **Vercel登录选项说明**
 
-当你运行 `vercel login` 时，会看到以下选项：
+当你运行vercel login `` 时，会看到以下选项：
 
 ```bash
 ? Log in to Vercel (Use arrow keys)

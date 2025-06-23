@@ -270,9 +270,9 @@ export function SignInContent() {
               </div>
 
               <div className="text-sm">
-                <Link href="/auth/forgot-password" className="font-medium text-primary hover:text-primary/80 transition-colors">
+                {/* <Link href="/auth/forgot-password" className="font-medium text-primary hover:text-primary/80 transition-colors">
                   Forgot your password?
-                </Link>
+                </Link> */}
               </div>
             </div>
 
