@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Fikirlerinizi son teknoloji AI teknolojimizle profesyonel görüntülere dönüştürün. Metinden görüntü üretin, mevcut görüntüleri düzenleyin ve Out Sea Hub AI\'nin gücüyle birden fazla görüntüyü işleyin.',
   openGraph: {
     title: 'Out Sea Hub AI - Profesyonel AI Görüntü Üretim Platformu',
-    url: 'https://fluxkontext.space/tr',
+    url: 'https://outseahub.com/tr',
     locale: 'tr_TR',
     type: 'website',
   }

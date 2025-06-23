@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'আমাদের অত্যাধুনিক AI প্রযুক্তির সাথে আপনার ধারণাগুলিকে পেশাদার ইমেজে রূপান্তরিত করুন। টেক্সট থেকে ইমেজ তৈরি করুন, বিদ্যমান ইমেজ সম্পাদনা করুন, এবং Out Sea Hub AI এর শক্তি দিয়ে একাধিক ইমেজ প্রক্রিয়া করুন।',
   openGraph: {
     title: 'Out Sea Hub AI - পেশাদার AI ইমেজ জেনারেশন প্ল্যাটফর্ম',
-    url: 'https://fluxkontext.space/bn',
+    url: 'https://outseahub.com/bn',
     locale: 'bn_BD',
     type: 'website',
   }

@@ -1,6 +1,6 @@
 # 🌐 Cloudflare Workers 详细配置指南
 
-## 🎯 目标：配置 api.fluxkontext.space 子域名
+## 🎯 目标：配置 api.outseahub.com 子域名
 
 ### 方案对比
 
@@ -16,7 +16,7 @@
 
 1. 访问 [dash.cloudflare.com](https://dash.cloudflare.com)
 2. 登录你的账户
-3. 确保你的域名 `fluxkontext.space` 已经添加到 Cloudflare
+3. 确保你的域名 `outseahub.com` 已经添加到 Cloudflare
 
 ### 步骤2：创建 Worker
 
@@ -43,13 +43,13 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     
-    // 只处理 api.fluxkontext.space 的请求
-    if (url.hostname !== 'api.fluxkontext.space') {
+    // 只处理 api.outseahub.com 的请求
+    if (url.hostname !== 'api.outseahub.com') {
       return new Response('Not Found', { status: 404 });
     }
     
     // 构建目标URL - 将api子域名请求代理到主域名
-    const targetUrl = `https://fluxkontext.space${url.pathname}${url.search}`;
+    const targetUrl = `https://outseahub.com${url.pathname}${url.search}`;
     
     // 复制原始请求的所有头部
     const headers = new Headers(request.headers);
@@ -126,7 +126,7 @@ export default {
 
 2. **输入域名**
    ```
-   Domain: api.fluxkontext.space
+   Domain: api.outseahub.com
    ```
 
 3. **等待 SSL 证书**
@@ -152,13 +152,13 @@ export default {
 
 ```bash
 # 测试 DNS 解析
-nslookup api.fluxkontext.space
+nslookup api.outseahub.com
 
 # 测试 HTTPS 连接
-curl -I https://api.fluxkontext.space
+curl -I https://api.outseahub.com
 
 # 测试 API 代理
-curl -X POST "https://api.fluxkontext.space/api/v1/flux/text-to-image/pro" \
+curl -X POST "https://api.outseahub.com/api/v1/flux/text-to-image/pro" \
   -H "Content-Type: application/json" \
   -d '{"prompt": "test"}'
 ```
@@ -262,7 +262,7 @@ export default {
    ```javascript
    // 在 Worker 中使用环境变量
    const API_KEY = env.API_KEY;
-   const TARGET_DOMAIN = env.TARGET_DOMAIN || 'fluxkontext.space';
+   const TARGET_DOMAIN = env.TARGET_DOMAIN || 'outseahub.com';
    ```
 
 ## 🚨 注意事项
@@ -284,4 +284,4 @@ export default {
    - 限制请求频率
    - 过滤恶意请求
 
-这样配置后，`api.fluxkontext.space` 就会完美代理到你的主域名了！ 
+这样配置后，`api.outseahub.com` 就会完美代理到你的主域名了！ 

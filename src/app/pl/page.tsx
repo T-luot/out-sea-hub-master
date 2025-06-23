@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Przekształć swoje pomysły w profesjonalne obrazy dzięki naszej najnowocześniejszej technologii AI. Generuj obrazy z tekstu, edytuj istniejące obrazy i przetwarzaj wiele obrazów z mocą Out Sea Hub AI.',
   openGraph: {
     title: 'Out Sea Hub AI - Profesjonalna Platforma Generowania Obrazów AI',
-    url: 'https://fluxkontext.space/pl',
+    url: 'https://outseahub.com/pl',
     locale: 'pl_PL',
     type: 'website',
   }

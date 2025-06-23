@@ -153,7 +153,7 @@ cookies: {
       sameSite: 'lax',        // 🔧 设置为lax而非strict
       path: '/',
       secure: true,           // 🔒 HTTPS环境必须为true
-      domain: 'fluxkontext.space' // 🌐 明确指定域名
+      domain: 'outseahub.com' // 🌐 明确指定域名
     }
   }
 }

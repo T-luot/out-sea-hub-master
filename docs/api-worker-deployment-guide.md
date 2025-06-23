@@ -1,13 +1,13 @@
 # 🚀 API子域名Worker部署完整指南
 
-## 🎯 目标：将 api.fluxkontext.space 部署到 Cloudflare Workers
+## 🎯 目标：将 api.outseahub.com 部署到 Cloudflare Workers
 
 ### 📋 **部署前准备**
 
 #### 1. 确认域名配置
 ```bash
 # 确保你的域名已经在Cloudflare管理
-✅ fluxkontext.space 已添加到 Cloudflare
+✅ outseahub.com 已添加到 Cloudflare
 ✅ DNS 记录可以编辑
 ✅ SSL/TLS 设置为 "Full" 或 "Full (strict)"
 ```
@@ -19,13 +19,13 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     
-    // 🎯 只处理 api.fluxkontext.space 的请求
-    if (url.hostname !== 'api.fluxkontext.space') {
+    // 🎯 只处理 api.outseahub.com 的请求
+    if (url.hostname !== 'api.outseahub.com') {
       return new Response('Not Found', { status: 404 });
     }
     
     // 🔄 构建目标URL - 代理到主域名
-    const targetUrl = `https://fluxkontext.space${url.pathname}${url.search}`;
+    const targetUrl = `https://outseahub.com${url.pathname}${url.search}`;
     
     // 📋 复制请求头，移除可能冲突的头部
     const headers = new Headers(request.headers);
@@ -97,7 +97,7 @@ export default {
    ```
    🌐 打开 https://dash.cloudflare.com
    🔐 登录你的Cloudflare账户
-   ✅ 确认 fluxkontext.space 域名在列表中
+   ✅ 确认 outseahub.com 域名在列表中
    ```
 
 2. **检查域名状态**
@@ -154,7 +154,7 @@ export default {
    ```
    🔧 Worker设置页面 → Triggers
    🌐 Custom Domains → Add Custom Domain
-   📝 输入: api.fluxkontext.space
+   📝 输入: api.outseahub.com
    ✅ 点击 "Add Domain"
    ```
 
@@ -184,7 +184,7 @@ export default {
 3. **验证DNS配置**
    ```bash
    # 检查DNS解析
-   nslookup api.fluxkontext.space
+   nslookup api.outseahub.com
    
    # 应该返回Cloudflare的IP地址
    ```
@@ -194,7 +194,7 @@ export default {
 1. **测试基本连接**
    ```bash
    # 测试HTTPS连接
-   curl -I https://api.fluxkontext.space
+   curl -I https://api.outseahub.com
    
    # 应该返回200状态码
    ```
@@ -202,10 +202,10 @@ export default {
 2. **测试API代理**
    ```bash
    # 测试主页代理
-   curl https://api.fluxkontext.space/
+   curl https://api.outseahub.com/
    
    # 测试API端点代理
-   curl -X POST https://api.fluxkontext.space/api/flux-kontext \
+   curl -X POST https://api.outseahub.com/api/flux-kontext \
      -H "Content-Type: application/json" \
      -d '{"prompt": "test"}'
    ```
@@ -213,7 +213,7 @@ export default {
 3. **测试CORS功能**
    ```bash
    # 测试OPTIONS请求
-   curl -X OPTIONS https://api.fluxkontext.space/api/flux-kontext \
+   curl -X OPTIONS https://api.outseahub.com/api/flux-kontext \
      -H "Origin: https://example.com" \
      -v
    
@@ -317,7 +317,7 @@ export default {
 ### 常见问题1：DNS未生效
 
 ```bash
-# 症状：api.fluxkontext.space 无法访问
+# 症状：api.outseahub.com 无法访问
 # 解决方案：
 1. 检查DNS记录是否正确配置
 2. 等待DNS传播 (最多24小时)
@@ -398,4 +398,4 @@ wrangler tail api-proxy-fluxkontext
 4. **实施基本的安全检查**
 5. **保持Worker代码简洁高效**
 
-完成这些步骤后，你的 `api.fluxkontext.space` 就会完美代理到主域名了！ 
+完成这些步骤后，你的 `api.outseahub.com` 就会完美代理到主域名了！ 

@@ -60,7 +60,7 @@ interface MetadataConfig {
 #### **第2步: URL生成算法**
 ```typescript
 function generateURLs(path: string, locale: string) {
-  const baseUrl = 'https://fluxkontext.space'
+  const baseUrl = 'https://outseahub.com'
   
   // 当前页面的canonical URL
   const canonicalPath = locale === 'en' ? path : `/${locale}${path}`
@@ -139,25 +139,25 @@ export const metadata = generateMultilingualMetadata({
 // 自动生成的输出
 {
   alternates: {
-    canonical: 'https://fluxkontext.space/',
+    canonical: 'https://outseahub.com/',
     languages: {
-      'x-default': 'https://fluxkontext.space/',
-      'en': 'https://fluxkontext.space/',
-      'zh': 'https://fluxkontext.space/zh/',
-      'de': 'https://fluxkontext.space/de/',
-      'es': 'https://fluxkontext.space/es/',
-      'fr': 'https://fluxkontext.space/fr/',
-      'it': 'https://fluxkontext.space/it/',
-      'ja': 'https://fluxkontext.space/ja/',
-      'ko': 'https://fluxkontext.space/ko/',
-      'nl': 'https://fluxkontext.space/nl/',
-      'pl': 'https://fluxkontext.space/pl/',
-      'pt': 'https://fluxkontext.space/pt/',
-      'ru': 'https://fluxkontext.space/ru/',
-      'tr': 'https://fluxkontext.space/tr/',
-      'ar': 'https://fluxkontext.space/ar/',
-      'hi': 'https://fluxkontext.space/hi/',
-      'bn': 'https://fluxkontext.space/bn/'
+      'x-default': 'https://outseahub.com/',
+      'en': 'https://outseahub.com/',
+      'zh': 'https://outseahub.com/zh/',
+      'de': 'https://outseahub.com/de/',
+      'es': 'https://outseahub.com/es/',
+      'fr': 'https://outseahub.com/fr/',
+      'it': 'https://outseahub.com/it/',
+      'ja': 'https://outseahub.com/ja/',
+      'ko': 'https://outseahub.com/ko/',
+      'nl': 'https://outseahub.com/nl/',
+      'pl': 'https://outseahub.com/pl/',
+      'pt': 'https://outseahub.com/pt/',
+      'ru': 'https://outseahub.com/ru/',
+      'tr': 'https://outseahub.com/tr/',
+      'ar': 'https://outseahub.com/ar/',
+      'hi': 'https://outseahub.com/hi/',
+      'bn': 'https://outseahub.com/bn/'
     }
   }
 }
@@ -178,11 +178,11 @@ export const metadata = generateMultilingualMetadata({
 // 自动生成的输出
 {
   alternates: {
-    canonical: 'https://fluxkontext.space/zh/generate',  // ✅ 中文页面的canonical
+    canonical: 'https://outseahub.com/zh/generate',  // ✅ 中文页面的canonical
     languages: {
-      'x-default': 'https://fluxkontext.space/generate', // ✅ 默认指向英语版本
-      'en': 'https://fluxkontext.space/generate',
-      'zh': 'https://fluxkontext.space/zh/generate',     // ✅ 当前页面
+      'x-default': 'https://outseahub.com/generate', // ✅ 默认指向英语版本
+      'en': 'https://outseahub.com/generate',
+      'zh': 'https://outseahub.com/zh/generate',     // ✅ 当前页面
       // ... 其他语言版本
     }
   },
@@ -260,23 +260,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/generate',
     languages: {
-      'x-default': 'https://fluxkontext.space/generate',
-      'en': 'https://fluxkontext.space/generate',
-      'zh': 'https://fluxkontext.space/zh/generate',
-      'de': 'https://fluxkontext.space/de/generate',
-      'es': 'https://fluxkontext.space/es/generate',
-      'fr': 'https://fluxkontext.space/fr/generate',
-      'it': 'https://fluxkontext.space/it/generate',
-      'ja': 'https://fluxkontext.space/ja/generate',
-      'ko': 'https://fluxkontext.space/ko/generate',
-      'nl': 'https://fluxkontext.space/nl/generate',
-      'pl': 'https://fluxkontext.space/pl/generate',
-      'pt': 'https://fluxkontext.space/pt/generate',
-      'ru': 'https://fluxkontext.space/ru/generate',
-      'tr': 'https://fluxkontext.space/tr/generate',
-      'ar': 'https://fluxkontext.space/ar/generate',
-      'hi': 'https://fluxkontext.space/hi/generate',
-      'bn': 'https://fluxkontext.space/bn/generate'
+      'x-default': 'https://outseahub.com/generate',
+      'en': 'https://outseahub.com/generate',
+      'zh': 'https://outseahub.com/zh/generate',
+      'de': 'https://outseahub.com/de/generate',
+      'es': 'https://outseahub.com/es/generate',
+      'fr': 'https://outseahub.com/fr/generate',
+      'it': 'https://outseahub.com/it/generate',
+      'ja': 'https://outseahub.com/ja/generate',
+      'ko': 'https://outseahub.com/ko/generate',
+      'nl': 'https://outseahub.com/nl/generate',
+      'pl': 'https://outseahub.com/pl/generate',
+      'pt': 'https://outseahub.com/pt/generate',
+      'ru': 'https://outseahub.com/ru/generate',
+      'tr': 'https://outseahub.com/tr/generate',
+      'ar': 'https://outseahub.com/ar/generate',
+      'hi': 'https://outseahub.com/hi/generate',
+      'bn': 'https://outseahub.com/bn/generate'
     }
   },
   openGraph: {

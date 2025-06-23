@@ -61,7 +61,7 @@ const apiEndpoints = [
 ]
 
 const codeExamples = {
-  curl: `curl -X POST "https://api.fluxkontext.space/api/v1/flux/text-to-image/pro" \\
+  curl: `curl -X POST "https://api.outseahub.com/api/v1/flux/text-to-image/pro" \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
@@ -72,7 +72,7 @@ const codeExamples = {
     "safety_tolerance": 3
   }'`,
   
-  javascript: `const response = await fetch('https://api.fluxkontext.space/api/v1/flux/text-to-image/pro', {
+  javascript: `const response = await fetch('https://api.outseahub.com/api/v1/flux/text-to-image/pro', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY',
@@ -92,7 +92,7 @@ console.log(result);`,
 
   python: `import requests
 
-url = "https://api.fluxkontext.space/api/v1/flux/text-to-image/pro"
+url = "https://api.outseahub.com/api/v1/flux/text-to-image/pro"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
@@ -113,7 +113,7 @@ print(result)`,
 
 const config = {
   method: 'post',
-  url: 'https://api.fluxkontext.space/api/v1/flux/text-to-image/pro',
+  url: 'https://api.outseahub.com/api/v1/flux/text-to-image/pro',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY',
     'Content-Type': 'application/json'
@@ -298,7 +298,7 @@ export function ApiDocumentation() {
               <div className="bg-muted/20 border border-border rounded-lg p-6">
                 <h3 className="font-semibold mb-3">Base URL</h3>
                 <code className="bg-muted px-3 py-1 rounded text-sm">
-                  https://api.fluxkontext.space
+                  https://api.outseahub.com
                 </code>
               </div>
             </div>
@@ -399,7 +399,7 @@ export function ApiDocumentation() {
   "data": {
     "images": [
       {
-        "url": "https://cdn.fluxkontext.space/generated/image_123.jpg",
+        "url": "https://cdn.outseahub.com/generated/image_123.jpg",
         "width": 1024,
         "height": 576,
         "seed": 42,

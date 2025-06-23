@@ -33,7 +33,7 @@ export function HomeContent() {
             "@type": "WebApplication",
             "name": "Out Sea Hub AI",
             "description": seo.meta.description,
-            "url": "https://fluxkontext.space",
+            "url": "https://outseahub.com",
             "applicationCategory": "ImageEditingApplication",
             "operatingSystem": "Web Browser",
             "offers": {

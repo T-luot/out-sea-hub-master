@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Превратите свои идеи в профессиональные изображения с помощью нашей передовой технологии ИИ. Генерируйте изображения из текста, редактируйте существующие изображения и обрабатывайте множество изображений с мощью Out Sea Hub AI.',
   openGraph: {
     title: 'Out Sea Hub AI - Профессиональная Платформа Генерации Изображений ИИ',
-    url: 'https://fluxkontext.space/ru',
+    url: 'https://outseahub.com/ru',
     locale: 'ru_RU',
     type: 'website',
   }

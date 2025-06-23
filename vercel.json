@@ -69,7 +69,7 @@
           "value": "http"
         }
       ],
-      "destination": "https://fluxkontext.space/$1",
+      "destination": "https://outseahub.com/$1",
       "statusCode": 301
     },
     {
@@ -82,10 +82,10 @@
       "has": [
         {
           "type": "host",
-          "value": "www.fluxkontext.space"
+          "value": "www.outseahub.com"
         }
       ],
-      "destination": "https://fluxkontext.space/$1",
+      "destination": "https://outseahub.com/$1",
       "statusCode": 301
     },
     {
