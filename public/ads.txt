@@ -1,6 +1,6 @@
 # ads.txt 文件 - 广告商授权声明
 # 用于声明授权的广告服务商和发布商关系
 # 更多信息：https://iabtechlab.com/ads-txt/
-
+ 
 # Google AdSense 授权条目
 google.com, pub-8104790897576752, DIRECT, f08c47fec0942fa0 
