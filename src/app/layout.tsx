@@ -60,12 +60,10 @@ export const metadata: Metadata = {
   },
   verification: {
     google: process.env.GOOGLE_SITE_VERIFICATION,
-    other: {
-      'msvalidate.01': 'FF2825FC2F6E7107029FFBEB0BC093EA',
-    },
   },
   other: {
     'google-adsense-account': 'ca-pub-8104790897576752',
+    'msvalidate.01': 'FF2825FC2F6E7107029FFBEB0BC093EA',
   },
 };
 
