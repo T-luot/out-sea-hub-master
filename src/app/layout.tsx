@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ClientBody from "./ClientBody";
 import { Analytics } from "@/components/Analytics";
+import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import SessionProvider from "@/components/providers/SessionProvider";
 import { GoogleOneTap } from "@/components/GoogleOneTap";
 import { GoogleOneTapTrigger } from "@/components/GoogleOneTapTrigger";
@@ -85,6 +87,8 @@ export default function RootLayout({
           <GoogleOneTap />
           <GoogleOneTapTrigger />
           <Analytics />
+          <VercelAnalytics />
+          <SpeedInsights />
         </SessionProvider>
       </body>
     </html>

@@ -456,6 +456,23 @@ FluxKontext.space是一个功能完整的AI图像生成平台，具有：
 - 📊 **SEO效果**: 支持 Bing 搜索引擎网站验证和索引优化
 - 🛠️ **错误修正**: 将验证标签从 verification.other 移动到 other 属性中
 
+- ✅ **功能新增**: 集成 Vercel Analytics 和 Speed Insights
+- 🎯 **依赖安装**: 
+  - @vercel/analytics: 用于网站访问分析
+  - @vercel/speed-insights: 用于性能监控
+- 📊 **组件集成**: 在 src/app/layout.tsx 中添加
+  ```tsx
+  import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
+  import { SpeedInsights } from "@vercel/speed-insights/next";
+  ```
+- 🔧 **技术细节**: 
+  - 重命名 Vercel Analytics 为 VercelAnalytics 避免命名冲突
+  - 在 SessionProvider 中添加两个组件
+- 📈 **监控效果**: 
+  - 实时网站访问数据分析
+  - 页面加载性能监控
+  - 用户体验数据收集
+
 ---
 
 ## 📞 技术支持
