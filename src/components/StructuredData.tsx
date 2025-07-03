@@ -6,10 +6,10 @@ export function OrganizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Out Sea Hub",
-    "url": process.env.NEXT_PUBLIC_SITE_URL || "https://fluxkontext.space",
+    "url": process.env.NEXT_PUBLIC_SITE_URL || "https://www.outseahub.com",
     "logo": {
       "@type": "ImageObject",
-      "url": `${process.env.NEXT_PUBLIC_SITE_URL || "https://fluxkontext.space"}/logo.png`,
+      "url": `${process.env.NEXT_PUBLIC_SITE_URL || "https://www.outseahub.com"}/logo.png`,
       "width": 256,
       "height": 256
     },
@@ -46,13 +46,13 @@ export function WebSiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Out Sea Hub",
-    "url": process.env.NEXT_PUBLIC_SITE_URL || "https://fluxkontext.space",
+    "url": process.env.NEXT_PUBLIC_SITE_URL || "https://www.outseahub.com",
     "description": "Professional AI image generation platform powered by Out Sea Hub. Create stunning images from text descriptions with advanced AI technology.",
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": `${process.env.NEXT_PUBLIC_SITE_URL || "https://fluxkontext.space"}/search?q={search_term_string}`
+        "urlTemplate": `${process.env.NEXT_PUBLIC_SITE_URL || "https://www.outseahub.com"}/search?q={search_term_string}`
       },
       "query-input": "required name=search_term_string"
     },
@@ -78,7 +78,7 @@ export function SoftwareApplicationSchema() {
     "@type": "SoftwareApplication",
     "name": "Out Sea Hub AI Image Generator",
     "description": "Professional AI image generation platform. Create stunning images from text descriptions with advanced Out Sea Hub AI technology.",
-    "url": process.env.NEXT_PUBLIC_SITE_URL || "https://fluxkontext.space",
+    "url": process.env.NEXT_PUBLIC_SITE_URL || "https://www.outseahub.com",
     "applicationCategory": "ImageEditingApplication",
     "operatingSystem": "Web Browser",
     "offers": {
@@ -100,7 +100,7 @@ export function SoftwareApplicationSchema() {
       "Out Sea Hub Pro and Max models",
       "AI-powered image creation"
     ],
-    "screenshot": `${process.env.NEXT_PUBLIC_SITE_URL || "https://fluxkontext.space"}/screenshot.png`,
+    "screenshot": `${process.env.NEXT_PUBLIC_SITE_URL || "https://www.outseahub.com"}/screenshot.png`,
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
@@ -257,14 +257,14 @@ export function VideoObjectSchema({
     "thumbnailUrl": thumbnailUrl,
     "uploadDate": uploadDate,
     "duration": duration,
-    "contentUrl": `${process.env.NEXT_PUBLIC_SITE_URL || "https://fluxkontext.space"}/videos/sample.mp4`,
-    "embedUrl": `${process.env.NEXT_PUBLIC_SITE_URL || "https://fluxkontext.space"}/embed/sample`,
+    "contentUrl": `${process.env.NEXT_PUBLIC_SITE_URL || "https://www.outseahub.com"}/videos/sample.mp4`,
+    "embedUrl": `${process.env.NEXT_PUBLIC_SITE_URL || "https://www.outseahub.com"}/embed/sample`,
     "publisher": {
       "@type": "Organization",
       "name": "Out Sea Hub",
       "logo": {
         "@type": "ImageObject",
-        "url": `${process.env.NEXT_PUBLIC_SITE_URL || "https://fluxkontext.space"}/logo.png`
+        "url": `${process.env.NEXT_PUBLIC_SITE_URL || "https://www.outseahub.com"}/logo.png`
       }
     }
   }
@@ -316,8 +316,8 @@ export function StructuredData() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Out Sea Hub",
-    "url": "https://fluxkontext.space",
-    "logo": "https://fluxkontext.space/logo.png",
+    "url": "https://www.outseahub.com",
+    "logo": "https://www.outseahub.com/logo.png",
     "description": "Professional AI image generation platform powered by Out Sea Hub. Create stunning images from text descriptions with advanced AI technology.",
     "sameAs": [
       "https://twitter.com/fluxkontext",
@@ -334,11 +334,11 @@ export function StructuredData() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Out Sea Hub",
-    "url": "https://fluxkontext.space",
+    "url": "https://www.outseahub.com",
     "description": "Professional AI image generation platform",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://fluxkontext.space/search?q={search_term_string}",
+      "target": "https://www.outseahub.com/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
@@ -350,7 +350,7 @@ export function StructuredData() {
     "applicationCategory": "MultimediaApplication",
     "operatingSystem": "Web Browser",
     "description": "AI-powered image generation platform for creating professional images from text descriptions",
-    "url": "https://fluxkontext.space",
+    "url": "https://www.outseahub.com",
     "author": {
       "@type": "Organization",
       "name": "Out Sea Hub"

@@ -49,7 +49,7 @@ export default {
     }
     
     // 构建目标URL - 将api子域名请求代理到主域名
-    const targetUrl = `https://fluxkontext.space${url.pathname}${url.search}`;
+    const targetUrl = `https://www.outseahub.com${url.pathname}${url.search}`;
     
     // 复制原始请求的所有头部
     const headers = new Headers(request.headers);

@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://fluxkontext.space'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.outseahub.com'),
   robots: {
     index: true,
     follow: true,

@@ -25,7 +25,7 @@ export default {
     }
     
     // 🔄 构建目标URL - 代理到主域名
-    const targetUrl = `https://fluxkontext.space${url.pathname}${url.search}`;
+    const targetUrl = `https://www.outseahub.com${url.pathname}${url.search}`;
     
     // 📋 复制请求头，移除可能冲突的头部
     const headers = new Headers(request.headers);

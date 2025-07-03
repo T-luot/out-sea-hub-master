@@ -9,30 +9,30 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Out Sea Hub AI - Generación Profesional de Imágenes IA',
     description: 'Transforma tus ideas en imágenes profesionales con nuestra tecnología de IA de vanguardia.',
-    url: 'https://fluxkontext.space/es',
+    url: 'https://www.outseahub.com/es',
     siteName: 'Out Sea Hub',
     locale: 'es_ES',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://fluxkontext.space/es',
+    canonical: 'https://www.outseahub.com/es',
     languages: {
-      'en': 'https://fluxkontext.space',
-      'de': 'https://fluxkontext.space/de',
-      'es': 'https://fluxkontext.space/es',
-      'fr': 'https://fluxkontext.space/fr',
-      'it': 'https://fluxkontext.space/it',
-      'ja': 'https://fluxkontext.space/ja',
-      'ko': 'https://fluxkontext.space/ko',
-      'nl': 'https://fluxkontext.space/nl',
-      'pl': 'https://fluxkontext.space/pl',
-      'pt': 'https://fluxkontext.space/pt',
-      'ru': 'https://fluxkontext.space/ru',
-      'tr': 'https://fluxkontext.space/tr',
-      'ar': 'https://fluxkontext.space/ar',
-      'hi': 'https://fluxkontext.space/hi',
-      'bn': 'https://fluxkontext.space/bn',
-      'zh': 'https://fluxkontext.space/zh'
+      'en': 'https://www.outseahub.com',
+      'de': 'https://www.outseahub.com/de',
+      'es': 'https://www.outseahub.com/es',
+      'fr': 'https://www.outseahub.com/fr',
+      'it': 'https://www.outseahub.com/it',
+      'ja': 'https://www.outseahub.com/ja',
+      'ko': 'https://www.outseahub.com/ko',
+      'nl': 'https://www.outseahub.com/nl',
+      'pl': 'https://www.outseahub.com/pl',
+      'pt': 'https://www.outseahub.com/pt',
+      'ru': 'https://www.outseahub.com/ru',
+      'tr': 'https://www.outseahub.com/tr',
+      'ar': 'https://www.outseahub.com/ar',
+      'hi': 'https://www.outseahub.com/hi',
+      'bn': 'https://www.outseahub.com/bn',
+      'zh': 'https://www.outseahub.com/zh'
     }
   }
 }

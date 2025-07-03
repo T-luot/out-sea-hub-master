@@ -46,7 +46,7 @@
     "framer-motion": "^12.14.0",
     "google-auth-library": "^9.15.1",
     "lucide-react": "^0.475.0",
-    "next": "^15.3.2",
+    "next": "^15.3.4",
     "next-auth": "^4.24.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -54,11 +54,11 @@
     "tailwind-merge": "^3.3.0",
     "tailwindcss-animate": "^1.0.7",
     "uuid": "^11.0.4",
+    "vercel": "^44.2.11",
     "zustand": "^5.0.5"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@cloudflare/next-on-pages": "^1.13.12",
     "@eslint/eslintrc": "^3.3.1",
     "@types/node": "^20.17.50",
     "@types/react": "^18.3.22",

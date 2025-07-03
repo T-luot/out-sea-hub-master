@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'حول أفكارك إلى صور احترافية باستخدام تقنية الذكاء الاصطناعي المتطورة. أنشئ صورًا من النص، وحرر الصور الموجودة، ومعالج صور متعددة بقوة Out Sea Hub AI.',
   openGraph: {
     title: 'Out Sea Hub AI - منصة احترافية لتوليد الصور بالذكاء الاصطناعي',
-    url: 'https://fluxkontext.space/ar',
+    url: 'https://www.outseahub.com/ar',
     locale: 'ar_SA',
     type: 'website',
   }

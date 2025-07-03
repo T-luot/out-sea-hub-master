@@ -86,37 +86,37 @@ NOINDEX页面：  4个 (只保留英语版本)
 
 #### **默认语言 (英语) - 5个多语言页面**
 ```
-https://fluxkontext.space/                    # 首页
-https://fluxkontext.space/generate            # 生成器
-https://fluxkontext.space/pricing             # 定价
-https://fluxkontext.space/resources           # 资源
-https://fluxkontext.space/features            # 功能
+https://www.outseahub.com/                    # 首页
+https://www.outseahub.com/generate            # 生成器
+https://www.outseahub.com/pricing             # 定价
+https://www.outseahub.com/resources           # 资源
+https://www.outseahub.com/features            # 功能
 ```
 
 #### **其他语言版本 - 75个页面**
 ```
-https://fluxkontext.space/zh/                 # 中文首页
-https://fluxkontext.space/zh/generate         # 中文生成器
-https://fluxkontext.space/zh/pricing          # 中文定价
-https://fluxkontext.space/zh/resources        # 中文资源
-https://fluxkontext.space/zh/features         # 中文功能
-https://fluxkontext.space/de/                 # 德语首页
-https://fluxkontext.space/de/generate         # 德语生成器
+https://www.outseahub.com/zh/                 # 中文首页
+https://www.outseahub.com/zh/generate         # 中文生成器
+https://www.outseahub.com/zh/pricing          # 中文定价
+https://www.outseahub.com/zh/resources        # 中文资源
+https://www.outseahub.com/zh/features         # 中文功能
+https://www.outseahub.com/de/                 # 德语首页
+https://www.outseahub.com/de/generate         # 德语生成器
 ... (其他13种语言 × 5个页面)
 ```
 
 #### **单语言页面 (保持英语) - 7个页面**
 ```
 # 法律页面 (3个)
-https://fluxkontext.space/terms               # 条款
-https://fluxkontext.space/privacy             # 隐私
-https://fluxkontext.space/refund              # 退款
+https://www.outseahub.com/terms               # 条款
+https://www.outseahub.com/privacy             # 隐私
+https://www.outseahub.com/refund              # 退款
 
 # NOINDEX页面 (4个)
-https://fluxkontext.space/dashboard           # 仪表板
-https://fluxkontext.space/auth/signin         # 登录
-https://fluxkontext.space/auth/signup         # 注册
-https://fluxkontext.space/admin               # 管理
+https://www.outseahub.com/dashboard           # 仪表板
+https://www.outseahub.com/auth/signin         # 登录
+https://www.outseahub.com/auth/signup         # 注册
+https://www.outseahub.com/admin               # 管理
 ```
 
 ## 📈 **SEO影响分析**

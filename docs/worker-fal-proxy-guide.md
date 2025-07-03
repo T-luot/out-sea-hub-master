@@ -234,7 +234,7 @@ Value: your_fal_api_key_here
 Type: Secret (加密存储)
 
 # 3. 可选的其他变量
-ALLOWED_ORIGINS=https://fluxkontext.space,https://www.fluxkontext.space
+ALLOWED_ORIGINS=https://www.outseahub.com,https://www.fluxkontext.space
 RATE_LIMIT_PER_MINUTE=60
 ENABLE_LOGGING=true
 ```

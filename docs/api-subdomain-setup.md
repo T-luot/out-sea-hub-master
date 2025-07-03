@@ -44,7 +44,7 @@ export default {
     
     // 将api子域名请求代理到主域名
     if (url.hostname === 'api.fluxkontext.space') {
-      const targetUrl = `https://fluxkontext.space${url.pathname}${url.search}`;
+      const targetUrl = `https://www.outseahub.com${url.pathname}${url.search}`;
       
       // 复制请求头
       const headers = new Headers(request.headers);
@@ -90,7 +90,7 @@ export default {
 ```
 URL模式: api.fluxkontext.space/*
 设置: 转发URL (301重定向)
-目标: https://fluxkontext.space/$1
+目标: https://www.outseahub.com/$1
 ```
 
 ### Nginx配置（如果使用自己的服务器）
@@ -101,7 +101,7 @@ server {
     server_name api.fluxkontext.space;
     
     location / {
-        return 301 https://fluxkontext.space$request_uri;
+        return 301 https://www.outseahub.com$request_uri;
     }
 }
 ```

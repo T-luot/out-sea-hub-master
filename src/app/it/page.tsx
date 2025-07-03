@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Out Sea Hub AI - Generazione Professionale di Immagini IA',
     description: 'Trasforma le tue idee in immagini professionali con la nostra tecnologia IA all\'avanguardia.',
-    url: 'https://fluxkontext.space/it',
+    url: 'https://www.outseahub.com/it',
     locale: 'it_IT',
     type: 'website',
   }

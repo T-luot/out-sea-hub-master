@@ -29,7 +29,7 @@ export function middleware(request: NextRequest) {
   if (process.env.NODE_ENV === 'production') {
     const proto = request.headers.get('x-forwarded-proto')
     if (proto === 'http') {
-      return NextResponse.redirect(`https://fluxkontext.space${pathname}`, 301)
+      return NextResponse.redirect(`https://www.outseahub.com${pathname}`, 301)
     }
   }
   

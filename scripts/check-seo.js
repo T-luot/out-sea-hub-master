@@ -29,7 +29,7 @@ function checkSEOFiles() {
     'public/favicon.ico',
     'public/robots.txt',
     'public/manifest.json',
-    'src/app/sitemap.ts',
+    'src/app/sitemap.xml.ts',
     'src/components/StructuredData.tsx'
   ];
   
