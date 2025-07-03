@@ -443,6 +443,12 @@ FluxKontext.space是一个功能完整的AI图像生成平台，具有：
 - 🔧 **技术细节**: 使用 Next.js metadata API 的 other 属性添加自定义 meta 标签
 - 📈 **预期效果**: 支持 Google AdSense 广告投放和收益化
 
+- ✅ **文件新增**: 创建 ads.txt 文件进行广告商授权声明
+- 🎯 **文件位置**: public/ads.txt 
+- 📝 **授权条目**: google.com, pub-8104790897576752, DIRECT, f08c47fec0942fa0
+- 🔧 **技术规范**: 符合 IAB Tech Lab ads.txt 标准
+- 🛡️ **安全作用**: 防止未授权的广告投放，保护广告收入
+
 ---
 
 ## 📞 技术支持
